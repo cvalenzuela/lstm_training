@@ -24,6 +24,9 @@ from pprint import pprint
 from six import text_type
 from json_checkpoint_vars import dump_checkpoints
 
+import platform
+print(platform.python_version())
+
 def main():
     parser = argparse.ArgumentParser(
                         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
